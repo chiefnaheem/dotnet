@@ -4,6 +4,8 @@ using AutoMapper;
 
 namespace PlatformService.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class PlatformController : ControllerBase
     {
         private readonly IPlatformRepo _repository;
